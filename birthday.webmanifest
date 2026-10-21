@@ -1,0 +1,16 @@
+{
+  "name": "杨佳 · 生日快乐",
+  "short_name": "生日快乐",
+  "description": "给杨佳的 28 岁生日礼物 · 蜡烛、星星、愿望与一封信",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070a16",
+  "theme_color": "#070a16",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "bday-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "bday-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "favicon-bday.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
