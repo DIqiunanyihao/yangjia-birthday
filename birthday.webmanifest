@@ -1,7 +1,7 @@
 {
-  "name": "杨佳 · 生日快乐",
+  "name": "宝宝 · 生日快乐",
   "short_name": "生日快乐",
-  "description": "给杨佳的 28 岁生日礼物 · 蜡烛、星星、愿望与一封信",
+  "description": "给宝宝的 28 岁生日礼物 · 蜡烛、星星、愿望与一封信",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

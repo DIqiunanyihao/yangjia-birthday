@@ -1,5 +1,5 @@
-/* 杨佳 · 生日快乐 Service Worker：全量预缓存，离线可用 */
-const CACHE = 'yangjia-birthday-v1';
+/* 宝宝 · 生日快乐 Service Worker：全量预缓存，离线可用 */
+const CACHE = 'yangjia-birthday-v2';
 const CORE = [
   './',
   './index.html',
@@ -26,7 +26,7 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)))
+      Promise.all(keys.filter((k) => k.startsWith('yangjia-birthday-') && k !== CACHE).map((k) => caches.delete(k)))
     ).then(() => self.clients.claim())
   );
 });
